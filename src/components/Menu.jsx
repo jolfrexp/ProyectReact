@@ -13,8 +13,10 @@ function Menu(prop) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
+
             <Nav.Link><Link to={prop.link2} className="mb">{prop.secundario}</Link></Nav.Link>
             <Nav.Link><Link to={prop.link3} className="mb">{prop.tercero}</Link></Nav.Link>
+            <Nav.Link><Link to={prop.alter} className="mb">{prop.alternative}</Link></Nav.Link>
             <NavDropdown title="Sing in" id="basic-nav-dropdown">
               <NavDropdown.Item><Link to={prop.link4} className="mb">{prop.cuarto}</Link></NavDropdown.Item>
               <NavDropdown.Item><Link to={prop.link5} className="mb">{prop.quinto}</Link></NavDropdown.Item>

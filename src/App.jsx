@@ -5,6 +5,7 @@ import Contact from './components/Contact'
 import Login from './components/Login'
 import Us from './components/Us'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Calculator from './components/Calculator'
 
 
 function App() {
@@ -19,10 +20,12 @@ function App() {
         tercero = "Nosotros" link3 = "/us"
         cuarto = "login" link4 = "/login"
         quinto = "Register" link = "/register"
+        alternative = "Calculadora" alter = "/Calculator"
         />}></Route>
         <Route path='/contact' element ={<Contact/>}></Route>
         <Route path='/login' element= {<Login/>}></Route>
         <Route path='/us' element= {<Us/>}></Route>
+        <Route path='/Calculator' element = {<Calculator/>}></Route>
       </Routes>
     </Router>
     </div>
